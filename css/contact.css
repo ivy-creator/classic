@@ -1,0 +1,184 @@
+body{
+    margin: o;
+    padding: 0;
+    background-color: rgb(202, 201, 187);
+}
+nav{
+    margin: 0;
+    background-color: rgb(93, 116, 93);
+    display: block;
+    width: 100%;
+}
+
+ul.link{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+
+}
+ul.link li a{
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+    min-height: 16px;
+    text-transform: uppercase;
+    padding: 14px;
+
+}
+ul.link li a:hover{
+    color: rgb(202, 201, 187);
+}
+.bad h1{
+    color: rgb(9, 124, 9);
+    font-weight: bolder;
+}
+form.field{
+    color: rgb(25, 53, 25);;;
+
+}
+input[type="text"]{
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+
+}
+input.input2[type="text"]{
+    font-size: 20px;
+    width: 400px;
+    height: 400px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+
+}
+button{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(93, 116, 93);
+    padding: 10px 40px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 7px;
+    float: left;
+}
+button:hover{
+    background-color: rgb(202, 201, 187);
+    color: rgb(93, 116, 93);;
+}
+button.but{
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(93, 116, 93);
+    padding: 10px 40px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 7px;
+    float: left;
+
+}
+button.but:hover{
+    background-color: rgb(202, 201, 187);
+    color: rgb(93, 116, 93);;
+    }
+    .address{
+        clear: both;
+        margin: o;
+    }
+    .address h1{
+        color: rgb(9, 124, 9);;
+        text-align: left;
+        padding: 20px;
+    }
+    .address h4{
+        color: rgb(25, 53, 25);;;
+    }
+footer.foot2{
+    background-color: mintcream;
+    text-align: center;
+}
+.foot2 h4{
+    color: olive;
+    
+
+}  
+.foot2 a{
+    color: palevioletred;
+    text-decoration: none;
+
+} 
+.foot2 a:hover{
+    color: saddlebrown;
+} 
+
+
+
+
+
+
+    /* ########### media query ############# */
+    @media screen and (max-width:680px){
+        ul.link li a{
+            display: block;
+            min-height: 8px;
+            padding: 7px;
+        }
+
+    form.field{
+        font-size: 0.75em;
+    }    
+
+    input[type="text"]{
+        font-size: 10px;
+        width: 200px;
+        min-width: 50px;
+        padding: 3px;
+        border-radius: 4px;
+    
+    }
+    button{
+        font-size: 8px;
+        font-weight: bold;
+        color: white;
+        padding: 5px 20px;
+        display: block;
+        margin: 3px;
+        border-radius: 4px;
+        float: left;
+    }
+    button.but{
+        font-size: 8px;
+        font-weight: bold;
+        color: white;
+        padding: 5px 20px;
+        display: block;
+        margin: 3px;
+        border-radius: 4px;
+        float: left;
+    }
+    input.input2[type="text"]{
+        font-size: 10px;
+        width: 200px;
+        height: 200px;
+        min-width: 50px;
+        padding: 3px;
+        border-radius: 4px;
+    
+    }
+    h1{
+        font-size: 1em;
+        font-weight: bold;
+    }
+    h4{
+        font-size: smaller;
+    }
+       
+       
+        
+    }

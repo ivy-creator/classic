@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Welcome to IvyClassic World</title>
+<link rel="stylesheet" href="css/indexstyle.css">
+</head>
+
+<body>
+<div class="container">
+    <nav class="main"> 
+        <div class="col-4">
+        <img class="logo-image" src="img/Hydrangeas.jpg" alt="logo image">    
+        <p>IvyClassic</p>
+    </div>
+    <div class="col-7">
+        <ul class="topnav" id="dropdownClick">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Services</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+            <li><a href="">News Feed</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="dropdownicon"><a href="javascript:void(0);" 
+                onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+    </div>
+    </nav>
+    <main>
+    <section class="header">
+    <div class="content"><h1>IVYCLASSIC</h1>
+    <p>Home of very beautiful well-tailored garments.</P>
+    </div>
+    </section>
+    </main>
+    
+    
+    
+    <footer>Ifeoma Anita Mbah Copyright 2020</footer>
+</div>
+
+
+<script>
+    function dropdownMenu(){
+        var x = document.getElementById("dropdownClick");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+            // change topnav to topnav.responsive
+        } else {
+            x.className = "topnav";
+        }
+    }
+
+</script>
+</body>
+</html>
