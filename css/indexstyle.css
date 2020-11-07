@@ -1,7 +1,7 @@
 .container {
     /* background: url(/img/Hydrangeas.jpg); */
     background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 
-    0, 0, 0.7)),url(./img/Hydrangeas.jpg);
+    0, 0, 0.7)),url('../img/Hydrangeas.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width:100%;
